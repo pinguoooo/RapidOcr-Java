@@ -11,6 +11,6 @@ public class OnnxWindowsX86LibraryLoader implements LibraryLoader {
 
     @Override
     public void loadLibrary() throws IOException {
-        JarFileUtil.copyFileFromJar("lib/RapidOcr.dll", "/onnx", true, false);
+        JarFileUtil.copyFileFromJar("lib/RapidOcr-x86.dll", "/onnx", true, false);
     }
 }

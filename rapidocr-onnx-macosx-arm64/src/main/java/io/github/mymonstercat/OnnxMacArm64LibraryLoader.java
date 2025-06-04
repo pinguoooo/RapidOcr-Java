@@ -11,6 +11,6 @@ public class OnnxMacArm64LibraryLoader implements LibraryLoader {
 
     @Override
     public void loadLibrary() throws IOException {
-        JarFileUtil.copyFileFromJar("lib/libRapidOcr.dylib", "/onnx", true, false);
+        JarFileUtil.copyFileFromJar("lib/libRapidOcr-arm64.dylib", "/onnx", true, false);
     }
 }

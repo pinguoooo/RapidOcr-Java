@@ -11,6 +11,6 @@ public class NcnnMacArm64LibraryLoader implements LibraryLoader {
 
     @Override
     public void loadLibrary() throws IOException {
-        JarFileUtil.copyFileFromJar("lib/libRapidOcr.dylib", "/ncnn", true, false);
+        JarFileUtil.copyFileFromJar("lib/libRapidOcr-arm64.dylib", "/ncnn", true, false);
     }
 }

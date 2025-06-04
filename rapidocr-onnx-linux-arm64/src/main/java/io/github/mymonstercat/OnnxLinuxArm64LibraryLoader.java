@@ -11,6 +11,6 @@ import java.io.IOException;
 public class OnnxLinuxArm64LibraryLoader implements LibraryLoader {
     @Override
     public void loadLibrary() throws IOException {
-        JarFileUtil.copyFileFromJar("lib/libRapidOcr.so", "/onnx", true, false);
+        JarFileUtil.copyFileFromJar("lib/libRapidOcr-arm64.so", "/onnx", true, false);
     }
 }
